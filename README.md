@@ -186,7 +186,7 @@ Planning to write **10+ technical blogs** documenting my learning journey:
   <a href="https://github.com/Subhash0910">
     <img src="https://img.shields.io/badge/GitHub-Subhash0910-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN">
+  <a href="https://www.linkedin.com/in/lavanuru-subhash-647b32344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
   </a>
   <a href="mailto:subhashvenkata1430@gmail.com">
