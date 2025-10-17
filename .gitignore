@@ -1,0 +1,37 @@
+cat > .gitignore << 'EOF'
+# Node modules
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Temp files
+*.tmp
+*.log
+*.bak
+
+# Build
+dist/
+build/
+*.egg-info/
+EOF
