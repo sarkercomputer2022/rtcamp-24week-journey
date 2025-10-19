@@ -10,6 +10,18 @@
 
 ---
 
+## 📊 Week 1 Daily Progress
+
+![Day 1](https://img.shields.io/badge/Day%201-✅%20Completed-success?style=flat-square)
+![Day 2](https://img.shields.io/badge/Day%202-✅%20Completed-success?style=flat-square)
+![Day 3](https://img.shields.io/badge/Day%203-⏳%20Upcoming-lightgrey?style=flat-square)
+![Day 4](https://img.shields.io/badge/Day%204-⏳%20Upcoming-lightgrey?style=flat-square)
+![Day 5](https://img.shields.io/badge/Day%205-⏳%20Upcoming-lightgrey?style=flat-square)
+![Day 6](https://img.shields.io/badge/Day%206-⏳%20Upcoming-lightgrey?style=flat-square)
+![Day 7](https://img.shields.io/badge/Day%207-⏳%20Upcoming-lightgrey?style=flat-square)
+
+---
+
 ## 📋 About This Journey
 
 This repository is my **structured 24-week learning roadmap** to transition from Windchill PLM development to modern full-stack development with Frappe Framework. Every commit represents progress, every project showcases growth, and every PR builds my open-source profile.
@@ -29,12 +41,13 @@ This repository is my **structured 24-week learning roadmap** to transition from
 | Milestone | Target | Current | Progress |
 |-----------|--------|---------|----------|
 | **Weeks Completed** | 24 | 1 | ![](https://progress-bar.dev/4/?scale=24&width=200&color=00d1b2) |
+| **Days Completed** | 168 | 2 | ![](https://progress-bar.dev/1/?scale=168&width=200&color=00d1b2) |
 | **LeetCode Problems** | 200+ | 0 | ![](https://progress-bar.dev/0/?scale=200&width=200&color=ffdd57) |
 | **Projects Built** | 5+ | 0 | ![](https://progress-bar.dev/0/?scale=5&width=200&color=3273dc) |
 | **Open Source PRs** | 15+ | 0 | ![](https://progress-bar.dev/0/?scale=15&width=200&color=48c774) |
 | **Technical Blogs** | 10+ | 0 | ![](https://progress-bar.dev/0/?scale=10&width=200&color=f14668) |
 | **Mock Interviews** | 10+ | 0 | ![](https://progress-bar.dev/0/?scale=10&width=200&color=b86bff) |
-| **Total Hours** | 600+ | 0 | ![](https://progress-bar.dev/0/?scale=600&width=200&color=ff9800) |
+| **Total Hours** | 600+ | 4.5 | ![](https://progress-bar.dev/1/?scale=600&width=200&color=ff9800) |
 
 ---
 
@@ -47,6 +60,16 @@ This repository is my **structured 24-week learning roadmap** to transition from
 ### 🌱 Phase 1: Foundations
 **Weeks 1-8**
 
+**Deliverables:**
+- Task Manager CLI
+- Expense Tracker App
+- E-commerce Dashboard
+
+</td>
+<td width="33%" valign="top">
+
+### 🐍 Phase 2: Python & Frappe
+**Weeks 9-16**
 
 
 **Deliverables:**
@@ -61,7 +84,6 @@ This repository is my **structured 24-week learning roadmap** to transition from
 **Weeks 9-16**
 
 
-
 **Deliverables:**
 - Hospital Management System
 - Frappe Custom Module
@@ -72,7 +94,6 @@ This repository is my **structured 24-week learning roadmap** to transition from
 
 ### 🏗️ Phase 3: Interview Prep
 **Weeks 17-24**
-
 
 
 **Deliverables:**
@@ -112,7 +133,7 @@ This repository is my **structured 24-week learning roadmap** to transition from
 
 | Week | Dates | Focus Area | Status | Notes |
 |------|-------|------------|--------|-------|
-| **Week 1** | Oct 18-24 | JavaScript Fundamentals I | 🟢 **Current** | Variables, Functions, Objects, Arrays |
+| **Week 1** | Oct 18-24 | JavaScript Fundamentals I | 🟢 **Current** (Day 2/7) | Variables, Functions, Objects, Arrays |
 | Week 2 | Oct 25-31 | JavaScript Fundamentals II | ⚪ Upcoming | Closures, Prototypes, `this` keyword |
 | Week 3 | Nov 1-7 | Advanced JavaScript | ⚪ Upcoming | Async/Await, Promises, ES6+ |
 | Week 4 | Nov 8-14 | JavaScript Projects | ⚪ Upcoming | DOM Manipulation, API integration |
@@ -136,8 +157,6 @@ This repository is my **structured 24-week learning roadmap** to transition from
 ---
 
 ## 📈 Learning Strategy
-
-
 
 **Daily Routine:**
 - 📖 Learn new concepts (1-2 hours)
@@ -186,7 +205,7 @@ Planning to write **10+ technical blogs** documenting my learning journey:
   <a href="https://github.com/Subhash0910">
     <img src="https://img.shields.io/badge/GitHub-Subhash0910-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
-  <a href="https://www.linkedin.com/in/lavanuru-subhash-647b32344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+  <a href="https://www.linkedin.com/in/lavanuru-subhash-647b32344">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
   </a>
   <a href="mailto:subhashvenkata1430@gmail.com">
@@ -213,7 +232,8 @@ If you find this roadmap helpful or want to follow my progress:
 
 <p align="center">
   <b>Started:</b> October 18, 2025<br>
-  <b>Last Updated:</b> October 18, 2025<br>
-  <b>Current Status:</b> Week 1 - JavaScript Fundamentals I<br><br>
+  <b>Last Updated:</b> October 20, 2025<br>
+  <b>Current Status:</b> Week 1 Day 2 - JavaScript Functions<br><br>
   <i>"The journey of a thousand miles begins with a single commit." 🚀</i>
 </p>
+

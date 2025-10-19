@@ -1,9 +1,10 @@
-cat > PROGRESS.md << 'EOF'
 # 📊 Weekly Progress Tracker
 
 ## Week 1: JavaScript Fundamentals I (Oct 18-24, 2025)
 
 **Focus:** Variables, Functions, Objects, Arrays, Loops
+
+---
 
 ### Daily Log
 
@@ -20,43 +21,90 @@ cat > PROGRESS.md << 'EOF'
 - [x] Time: 2.5 hours ✅
 - [x] Status: DAY 1 COMPLETED! 🎉
 
+**What I learned:**
+- var vs let vs const differences
+- Block scope vs function scope
+- Hoisting behavior
+- Type coercion rules ("5" + 3 vs "5" - 3)
+- Always use const by default, let when needed, never use var
+
+---
 
 #### Day 2 - Sunday, Oct 19, 2025
-- [ ] Topic: 
-- [ ] Exercises: 
-- [ ] Time: 0 hours
+- [x] Topic: JavaScript Functions ✅
+- [x] Learned: Function declarations ✅
+- [x] Learned: Function expressions ✅
+- [x] Learned: Arrow functions ✅
+- [x] Learned: Default parameters ✅
+- [x] Learned: Callback functions ✅
+- [x] Created: day2-functions.js file ✅
+- [x] Practiced: 6 function variations ✅
+- [x] Documented learning in notes.md ✅
+- [x] Pushed to GitHub ✅
+- [x] Time: 2 hours ✅
+- [x] Status: DAY 2 COMPLETED! 🎉
+
+**What I learned:**
+- Function declarations are hoisted, expressions are not
+- Arrow functions have shorter syntax: `(a, b) => a + b`
+- Default parameters provide fallback values
+- Callbacks: functions passed as arguments
+- Use arrow functions for short operations
+
+---
 
 #### Day 3 - Monday, Oct 20, 2025
-- [ ] Topic: Functions (declarations, expressions, arrow functions)
-- [ ] Exercises: 0/10 function variations
-- [ ] Time: 0 hours
-
-#### Day 4 - Tuesday, Oct 21, 2025
 - [ ] Topic: Objects (creation, properties, methods, destructuring)
 - [ ] Exercises: 0/5 object problems
 - [ ] Time: 0 hours
+- [ ] Status: Upcoming
 
-#### Day 5 - Wednesday, Oct 22, 2025
+---
+
+#### Day 4 - Tuesday, Oct 21, 2025
 - [ ] Topic: Arrays (map, filter, reduce, forEach, find)
 - [ ] Exercises: 0/10 array problems
 - [ ] Time: 0 hours
+- [ ] Status: Upcoming
 
-#### Day 6 - Thursday, Oct 23, 2025
+---
+
+#### Day 5 - Wednesday, Oct 22, 2025
 - [ ] Topic: Loops & conditionals
 - [ ] Exercises: 0/5 loop problems
 - [ ] Time: 0 hours
+- [ ] Status: Upcoming
+
+---
+
+#### Day 6 - Thursday, Oct 23, 2025
+- [ ] Topic: Practice Day - Review Week 1
+- [ ] Combined exercises
+- [ ] Time: 0 hours
+- [ ] Status: Upcoming
+
+---
 
 #### Day 7 - Friday, Oct 24, 2025
 - [ ] Project: Task Manager CLI
 - [ ] Time: 0 hours
+- [ ] Status: Upcoming
 
-### Week 1 Summary
-- **Total Hours:** 0
-- **Exercises Completed:** 0
-- **Projects:** None yet
-- **Challenges:** 
+---
+
+### Week 1 Summary (So Far)
+- **Days Completed:** 2/7
+- **Total Hours:** 4.5/12 target
+- **Exercises Completed:** 11 (5 type coercion + 6 functions)
+- **Projects:** None yet (Week 1 project on Day 7)
+- **Challenges Faced:** 
+  - Understanding nested loop variable shadowing
+  - Grasping arrow function `this` context differences
 - **Key Learnings:** 
-- **Next Week Preview:** Closures, Prototypes, this keyword
+  - Always use let/const instead of var
+  - Arrow functions perfect for array methods
+  - Type coercion can cause unexpected bugs
+- **Next Week Goals:** Complete Objects, Arrays, Loops and build Task Manager CLI
 
 ---
 
@@ -68,8 +116,8 @@ Coming soon...
 
 **Overall Stats:**
 - Total Weeks Completed: 0/24
-- Total Hours: 0
-- Total Exercises: 0
+- Total Days Completed: 2/168
+- Total Hours: 4.5/600
+- Total Exercises: 11
 - Total Projects: 0
 - Total PRs: 0
-EOF
