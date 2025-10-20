@@ -1,8 +1,8 @@
 # Week 1: JavaScript Fundamentals I
 
 **Dates:** October 18-24, 2025  
-**Status:** 🟢 In Progress (Day 2/7 Complete)  
-**Hours Spent:** 4.5/12 target
+**Status:** 🟢 In Progress (Day 3/7 Complete)  
+**Hours Spent:** 7/12 target
 
 ---
 
@@ -50,15 +50,19 @@ This week focuses on JavaScript core fundamentals - the building blocks of all J
 
 ---
 
-### ⏳ Day 3 (Oct 20) - Objects
-**Topics:** Object creation, properties, methods, destructuring, `this` keyword
+### ✅ Day 3 (Oct 20) - Objects
+**Time:** 2.5 hours  
+**Topics:** Object creation, properties, methods, `this` keyword, destructuring
 
-**Plan:**
-- Create objects with properties
-- Add methods to objects
-- Practice object destructuring
-- Understand `this` context
-- 5 object manipulation problems
+**What I learned:**
+- Objects are collections of key-value pairs
+- Three ways to create objects (literal is best)
+- `this` keyword doesn't work in arrow functions
+- Destructuring is powerful and clean
+
+**Files:**
+- `exercises/day3-objects.js`
+- `exercises/day3-object-problems.js`
 
 ---
 
@@ -112,7 +116,7 @@ This week focuses on JavaScript core fundamentals - the building blocks of all J
 ### Days Completed
 - [x] Day 1: Variables ✅
 - [x] Day 2: Functions ✅
-- [ ] Day 3: Objects
+- [x] Day 3: Objects ✅
 - [ ] Day 4: Arrays
 - [ ] Day 5: Loops
 - [ ] Day 6: Practice
@@ -128,17 +132,20 @@ This week focuses on JavaScript core fundamentals - the building blocks of all J
 - [x] Arrow functions
 - [x] Default parameters
 - [x] Callback functions
-- [ ] Objects
+- [x] Object creation
+- [x] Object methods
+- [x] `this` keyword
+- [x] Object destructuring
 - [ ] Array methods
 - [ ] Loops
 - [ ] Conditionals
 
 ### Statistics
-- **Days Completed:** 2/7 (29%)
-- **Hours Spent:** 4.5/12 (38%)
-- **Exercises Solved:** 11
-- **Files Created:** 3
-- **Concepts Mastered:** 9
+- **Days Completed:** 3/7 (43%)
+- **Hours Spent:** 7/12 (58%)
+- **Exercises Solved:** 17
+- **Files Created:** 5
+- **Concepts Mastered:** 13
 
 ---
 
@@ -148,17 +155,20 @@ This week focuses on JavaScript core fundamentals - the building blocks of all J
 ✅ Understood var vs let vs const deeply  
 ✅ Discovered variable shadowing bug with nested loops  
 ✅ Grasped arrow function syntax quickly  
+✅ Mastered object creation and methods  
 ✅ Good documentation habits established  
 
 ### Challenges Faced
 ⚠️ Understanding `this` context in arrow functions  
 ⚠️ Remembering when to use implicit vs explicit return  
 ⚠️ Type coercion edge cases  
+⚠️ When to use arrow functions vs regular functions in objects
 
 ### Solutions Found
 💡 Used `let` to fix nested loop bug  
 💡 Practice more examples to understand `this`  
 💡 Created comparison table for function types  
+💡 **RULE: Never use arrow functions as object methods!**
 
 ---
 
@@ -166,10 +176,12 @@ This week focuses on JavaScript core fundamentals - the building blocks of all J
 
 ### Videos
 - JavaScript var, let, and const explained
+- JavaScript Objects Tutorial for Beginners
 
 ### Articles
 - FreeCodeCamp: var vs let vs const
 - MDN: JavaScript Functions
+- MDN: JavaScript Objects Basics
 
 ### Tools
 - VS Code for coding
@@ -189,4 +201,5 @@ This week focuses on JavaScript core fundamentals - the building blocks of all J
 
 ---
 
-**Files in This Week:**
+## Files in This Week
+

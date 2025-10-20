@@ -54,10 +54,31 @@
 ---
 
 #### Day 3 - Monday, Oct 20, 2025
-- [ ] Topic: Objects (creation, properties, methods, destructuring)
-- [ ] Exercises: 0/5 object problems
-- [ ] Time: 0 hours
-- [ ] Status: Upcoming
+#### Day 3 - Monday, Oct 20, 2025
+- [x] Topic: JavaScript Objects ✅
+- [x] Learned: Object creation (3 methods) ✅
+- [x] Learned: Property access (dot & bracket notation) ✅
+- [x] Learned: Object methods & 'this' keyword ✅
+- [x] Learned: Nested objects ✅
+- [x] Learned: Object destructuring ✅
+- [x] Learned: Built-in object methods (keys, values, entries) ✅
+- [x] Created: day3-objects.js (10 concepts) ✅
+- [x] Created: day3-object-problems.js (6 problems) ✅
+- [x] Practiced: 5 problems + 1 bonus ✅
+- [x] Documented learning in notes.md ✅
+- [x] Time: 2.5 hours ✅
+- [x] Status: DAY 3 COMPLETED! 🎉
+
+**What I learned:**
+- Objects are key-value pairs, like a dictionary
+- Use object literal syntax: `const obj = {}`
+- `this` keyword refers to the object (but NOT in arrow functions!)
+- Destructuring makes extracting properties super easy
+- Object methods are functions inside objects
+
+**Key Discovery:**
+- Arrow functions as object methods DON'T work! Always use regular function syntax for methods.
+
 
 ---
 
@@ -93,18 +114,21 @@
 ---
 
 ### Week 1 Summary (So Far)
-- **Days Completed:** 2/7
-- **Total Hours:** 4.5/12 target
-- **Exercises Completed:** 11 (5 type coercion + 6 functions)
+- **Days Completed:** 3/7
+- **Total Hours:** 7/12 target
+- **Exercises Completed:** 17 (5 + 6 + 6)
 - **Projects:** None yet (Week 1 project on Day 7)
 - **Challenges Faced:** 
   - Understanding nested loop variable shadowing
   - Grasping arrow function `this` context differences
+  - Understanding why arrow functions don't work as object methods
 - **Key Learnings:** 
   - Always use let/const instead of var
   - Arrow functions perfect for array methods
-  - Type coercion can cause unexpected bugs
-- **Next Week Goals:** Complete Objects, Arrays, Loops and build Task Manager CLI
+  - Objects are fundamental data structures in JavaScript
+  - `this` keyword is powerful but tricky with arrow functions
+- **Next Week Goals:** Complete Arrays, Loops and build Task Manager CLI
+
 
 ---
 

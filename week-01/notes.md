@@ -1,8 +1,8 @@
 # Week 1: JavaScript Fundamentals I - Learning Notes
 
 **Dates:** October 18-24, 2025  
-**Status:** 🟢 In Progress (Day 2/7 Complete)  
-**Total Hours:** 4.5 hours
+**Status:** 🟢 In Progress (Day 3/7 Complete)  
+**Total Hours:** 7 hours
 
 ---
 
@@ -19,7 +19,8 @@
 
 **var - Old Way (Don't Use!)**
 var name = "Subhash";
-var name = "Venkata";
+var name = "Venkata"; // Can redeclare - BAD!
+
 
 - Function scope
 - Can redeclare and reassign
@@ -29,7 +30,8 @@ var name = "Venkata";
 **let - Modern Way**
 let age = 25;
 age = 26; // Can reassign - OK
-// let age = 27;
+// let age = 27; // Cannot redeclare - GOOD!
+
 
 - Block scope (`{}`)
 - Cannot redeclare, can reassign
@@ -57,12 +59,15 @@ console.log(blockVar); // Works
 // console.log(blockVar); // ERROR! Outside block
 
 
+
 **Function Scope (var)**
 function test() {
 var funcVar = "Inside function";
 console.log(funcVar); // Works
 }
 // console.log(funcVar); // ERROR! Outside function
+
+
 
 ---
 
@@ -72,9 +77,13 @@ console.log(funcVar); // Works
 console.log(x); // undefined (not error!)
 var x = 5;
 
+
+
 **let/const NOT hoisted:**
 // console.log(y); // ERROR! Cannot access before initialization
 let y = 5;
+
+
 
 ---
 
@@ -83,17 +92,24 @@ let y = 5;
 **String + Number = String**
 "5" + 3 // "53" (concatenation)
 
+
+
 **String - Number = Number**
 "10" - 5 // 5 (subtraction)
+
+
 
 **Boolean to Number**
 true + 5 // 6 (true = 1)
 false + 10 // 10 (false = 0)
 
 
+
 **Equality**
 "5" == 5 // true (loose, converts types)
 "5" === 5 // false (strict, no conversion)
+
+
 
 **Truthy/Falsy Values**
 - Falsy: `""`, `0`, `null`, `undefined`, `NaN`, `false`
@@ -127,6 +143,8 @@ return Hello, ${name}!;
 }
 console.log(greet("Subhash")); // Hello, Subhash!
 
+
+
 **Key Points:**
 - Uses `function` keyword
 - **Hoisted** - can be called before declaration
@@ -144,6 +162,8 @@ const square = function(x) {
 return x * x;
 };
 console.log(square(5)); // 25
+
+
 
 **Key Points:**
 - Function assigned to a variable
@@ -174,6 +194,7 @@ const double = x => x * 2;
 const sayHi = () => "Hello!";
 
 
+
 **Key Points:**
 - Shorter syntax than regular functions
 - Implicit return for one-liners
@@ -194,6 +215,8 @@ console.log(msg);
 
 sayMessage(); // Hello there! (uses default)
 sayMessage("Hi!"); // Hi! (uses provided value)
+
+
 
 **Key Points:**
 - Provide fallback values for missing arguments
@@ -217,6 +240,8 @@ processUserInput(function(name) {
 console.log(User is: ${name});
 });
 // Output: User is: Subhash
+
+
 
 **Key Points:**
 - Functions passed as arguments to other functions
@@ -262,6 +287,8 @@ for (var item of items) {
 console.log(2, item); // Prints last item, NOT wizard!
 }
 
+
+
 **Solution:** Use `let` - each loop gets its own scope!
 for (let item of wizards) {
 console.log(1, item); // Prints wizard
@@ -272,7 +299,177 @@ console.log(2, item); // Prints wizard correctly!
 }
 
 
+
 This is WHY modern JavaScript uses `let` instead of `var`!
+
+---
+
+## Day 3 - Monday, Oct 20, 2025
+
+### Topic: JavaScript Objects
+
+**Time Spent:** 2.5 hours  
+**Status:** ✅ Completed
+
+---
+
+### 1. Object Creation - Three Methods
+
+**Method 1: Object Literal (Most Common)**
+const person = {
+firstName: "Subhash",
+age: 25,
+company: "TCS"
+};
+
+
+
+**Method 2: Using 'new Object()'**
+const car = new Object();
+car.brand = "Toyota";
+
+
+
+**Method 3: Using Object.create()**
+const employee = Object.create({});
+employee.name = "Subhash";
+
+
+
+**Best Practice:** Always use object literal syntax (Method 1)
+
+---
+
+### 2. Accessing Properties
+
+**Dot Notation (Preferred)**
+user.name
+user.email
+
+
+
+**Bracket Notation (For dynamic keys)**
+user["name"]
+const key = "email";
+user[key]
+
+
+
+---
+
+### 3. Object Methods
+
+**ES6 Method Shorthand (Modern)**
+const calculator = {
+num1: 10,
+num2: 5,
+add() {
+return this.num1 + this.num2;
+}
+};
+
+
+
+**Important:** Arrow functions DON'T have their own `this` - avoid using them as object methods!
+
+---
+
+### 4. The `this` Keyword
+
+**In regular functions:** `this` refers to the object
+const person = {
+name: "Subhash",
+greet() {
+console.log(Hi, I'm ${this.name}); // Works!
+}
+};
+
+
+
+**In arrow functions:** `this` doesn't work as expected
+const person = {
+name: "Subhash",
+greet: () => {
+console.log(Hi, I'm ${this.name}); // this.name is undefined!
+}
+};
+
+
+
+**Rule:** Use regular functions for object methods, NOT arrow functions
+
+---
+
+### 5. Object Destructuring (ES6+)
+
+**Old way:**
+const name = user.name;
+const age = user.age;
+const email = user.email;
+
+
+
+**Modern way:**
+const { name, age, email } = user;
+
+
+
+**With renaming:**
+const { name: userName, age: userAge } = user;
+
+
+
+**With defaults:**
+const { country = "India" } = user;
+
+
+
+---
+
+### 6. Useful Built-in Methods
+
+**Object.keys()** - Get all property names
+Object.keys(user); // ["name", "age", "email"]
+
+
+
+**Object.values()** - Get all values
+Object.values(user); // ["Subhash", 25, "subhash@example.com"]
+
+
+
+**Object.entries()** - Get key-value pairs
+Object.entries(user); // [["name", "Subhash"], ["age", 25], ...]
+
+
+
+**hasOwnProperty()** - Check if property exists
+user.hasOwnProperty('name'); // true
+
+
+
+---
+
+### Key Takeaways - Day 3
+
+1. **Objects** are collections of key-value pairs
+2. Use **object literal** syntax for creation
+3. **Dot notation** for most property access
+4. **`this` keyword** refers to the object in regular functions
+5. **Never use arrow functions** as object methods
+6. **Destructuring** makes extracting properties easier
+7. Objects can have **nested objects** and **methods**
+
+---
+
+### Problems Solved - Day 3
+
+✅ Created book object with methods  
+✅ Modified smartphone object properties  
+✅ Built bank account with deposit/withdraw methods  
+✅ Accessed nested object data  
+✅ Practiced object destructuring  
+✅ BONUS: Employee management system
 
 ---
 
@@ -285,6 +482,10 @@ This is WHY modern JavaScript uses `let` instead of `var`!
 ### Day 2
 - `exercises/day2-functions.js` - Function types practice (6 variations)
 
+### Day 3
+- `exercises/day3-objects.js` - 10 object concepts practiced
+- `exercises/day3-object-problems.js` - 5 problems + 1 bonus solved
+
 ---
 
 ## Questions/Confusions
@@ -294,20 +495,24 @@ This is WHY modern JavaScript uses `let` instead of `var`!
 - ✅ RESOLVED: Grasped why let/const are better than var
 
 ### Day 2
-- ⚠️ Need more practice with `this` keyword in arrow vs regular functions
-- ⚠️ Want to explore higher-order functions and closures
-- ⚠️ Curious about async functions and promises
+- ✅ RESOLVED: Understood `this` context difference in arrow vs regular functions
+- ⚠️ Want to explore higher-order functions and closures (Week 2)
+- ⚠️ Curious about async functions and promises (Week 3)
+
+### Day 3
+- ✅ RESOLVED: Why arrow functions don't work as object methods
+- ✅ RESOLVED: When to use destructuring vs regular property access
+- ⚠️ Want to learn about object prototypes (Week 2)
 
 ---
 
 ## Next Steps
 
-### Day 3 (Monday, Oct 20)
-- **Topic:** Objects
-- Create objects with properties and methods
-- Object destructuring
-- Understanding `this` in object methods
-- 5 object manipulation problems
+### Day 4 (Tuesday, Oct 21)
+- **Topic:** JavaScript Arrays
+- Array methods: map, filter, reduce, forEach, find
+- Array iteration and manipulation
+- 10 array practice problems
 
 ### Week 1 Project (Day 7)
 - Build Task Manager CLI
@@ -316,9 +521,10 @@ This is WHY modern JavaScript uses `let` instead of `var`!
 
 ---
 
-**Total Progress:**
-- Days: 2/7 completed
-- Hours: 4.5
-- Concepts mastered: 10+
-- Practice files: 3
-- Bugs discovered and fixed: 1 (var shadowing)
+**Total Progress So Far:**
+- Days: 3/7 completed (43%)
+- Hours: 7/12 target (58%)
+- Concepts mastered: 13+
+- Practice files: 5
+- Problems solved: 17
+- Bugs discovered and fixed: 2 (var shadowing, arrow function `this`)

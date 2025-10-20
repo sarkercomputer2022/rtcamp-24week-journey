@@ -12,9 +12,11 @@
 
 ## 📊 Week 1 Daily Progress
 
+## 📊 Week 1 Daily Progress
+
 ![Day 1](https://img.shields.io/badge/Day%201-✅%20Completed-success?style=flat-square)
 ![Day 2](https://img.shields.io/badge/Day%202-✅%20Completed-success?style=flat-square)
-![Day 3](https://img.shields.io/badge/Day%203-⏳%20Upcoming-lightgrey?style=flat-square)
+![Day 3](https://img.shields.io/badge/Day%203-✅%20Completed-success?style=flat-square)
 ![Day 4](https://img.shields.io/badge/Day%204-⏳%20Upcoming-lightgrey?style=flat-square)
 ![Day 5](https://img.shields.io/badge/Day%205-⏳%20Upcoming-lightgrey?style=flat-square)
 ![Day 6](https://img.shields.io/badge/Day%206-⏳%20Upcoming-lightgrey?style=flat-square)
@@ -41,13 +43,14 @@ This repository is my **structured 24-week learning roadmap** to transition from
 | Milestone | Target | Current | Progress |
 |-----------|--------|---------|----------|
 | **Weeks Completed** | 24 | 1 | ![](https://progress-bar.dev/4/?scale=24&width=200&color=00d1b2) |
-| **Days Completed** | 168 | 2 | ![](https://progress-bar.dev/1/?scale=168&width=200&color=00d1b2) |
+| **Days Completed** | 168 | 3 | ![](https://progress-bar.dev/2/?scale=168&width=200&color=00d1b2) |
 | **LeetCode Problems** | 200+ | 0 | ![](https://progress-bar.dev/0/?scale=200&width=200&color=ffdd57) |
 | **Projects Built** | 5+ | 0 | ![](https://progress-bar.dev/0/?scale=5&width=200&color=3273dc) |
 | **Open Source PRs** | 15+ | 0 | ![](https://progress-bar.dev/0/?scale=15&width=200&color=48c774) |
 | **Technical Blogs** | 10+ | 0 | ![](https://progress-bar.dev/0/?scale=10&width=200&color=f14668) |
 | **Mock Interviews** | 10+ | 0 | ![](https://progress-bar.dev/0/?scale=10&width=200&color=b86bff) |
-| **Total Hours** | 600+ | 4.5 | ![](https://progress-bar.dev/1/?scale=600&width=200&color=ff9800) |
+| **Total Hours** | 600+ | 7 | ![](https://progress-bar.dev/1/?scale=600&width=200&color=ff9800) |
+
 
 ---
 
@@ -133,7 +136,7 @@ This repository is my **structured 24-week learning roadmap** to transition from
 
 | Week | Dates | Focus Area | Status | Notes |
 |------|-------|------------|--------|-------|
-| **Week 1** | Oct 18-24 | JavaScript Fundamentals I | 🟢 **Current** (Day 2/7) | Variables, Functions, Objects, Arrays |
+| **Week 1** | Oct 18-24 | JavaScript Fundamentals I | 🟢 **Current** (Day 3/7) | Variables, Functions, Objects, Arrays |
 | Week 2 | Oct 25-31 | JavaScript Fundamentals II | ⚪ Upcoming | Closures, Prototypes, `this` keyword |
 | Week 3 | Nov 1-7 | Advanced JavaScript | ⚪ Upcoming | Async/Await, Promises, ES6+ |
 | Week 4 | Nov 8-14 | JavaScript Projects | ⚪ Upcoming | DOM Manipulation, API integration |
@@ -233,7 +236,8 @@ If you find this roadmap helpful or want to follow my progress:
 <p align="center">
   <b>Started:</b> October 18, 2025<br>
   <b>Last Updated:</b> October 20, 2025<br>
-  <b>Current Status:</b> Week 1 Day 2 - JavaScript Functions<br><br>
+  <b>Current Status:</b> Week 1 Day 3 - JavaScript Objects<br><br>
   <i>"The journey of a thousand miles begins with a single commit." 🚀</i>
 </p>
+
 
